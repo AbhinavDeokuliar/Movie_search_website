@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# 🎬 Movie Search Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Movie Search Website** repository! This project is a React-based web application that allows users to search for movies and view details such as the title, release date, overview, and poster. The data is fetched from [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- 🔍 **Search Movies**: Users can search for movies by entering keywords in the search bar.
+- 📋 **Movie Details**: Users can view detailed information about each movie, including the title, release date, overview, and poster image.
+- 📱 **Responsive Design**: The website is responsive and works well on both desktop and mobile devices.
 
-### `npm start`
+## 🌐 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo of the website [here](#).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Screenshots
 
-### `npm test`
+![Home Page](screenshots/home.png)
+*Home Page*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Search Results](screenshots/search-results.png)
+*Search Results*
 
-### `npm run build`
+![Movie Details](screenshots/movie-details.png)
+*Movie Details*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js (v14 or later)
+- npm (v6 or later) or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    git clone https://github.com/AbhinavDeokuliar/Movie_search_website.git
+    cd Movie_search_website
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies:**
 
-## Learn More
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    or
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    yarn install
+    ```
 
-### Code Splitting
+3. **Create a `.env` file in the root directory and add your TMDb API key:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```env
+    REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+    ```
 
-### Analyzing the Bundle Size
+4. **Start the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    npm start
+    ```
 
-### Making a Progressive Web App
+    or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```bash
+    yarn start
+    ```
 
-### Advanced Configuration
+    The app should now be running on `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🛠️ Built With
 
-### Deployment
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [TMDb API](https://www.themoviedb.org/documentation/api) - The API used to fetch movie data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `npm run build` fails to minify
+Contributions are welcome! Please follow these steps to contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📚 Acknowledgments
+
+- [The Movie Database (TMDb)](https://www.themoviedb.org/) for providing the movie data.
+- [Create React App](https://create-react-app.dev/) for the boilerplate.
+
+## 📞 Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- GitHub: [AbhinavDeokuliar](https://github.com/AbhinavDeokuliar)
+
+---
+
+Thank you for visiting the repository! Happy coding! 🎉
