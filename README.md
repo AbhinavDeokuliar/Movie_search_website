@@ -12,15 +12,15 @@ Welcome to the **Movie Search Website** repository! This project is a React-base
 
 Check out the live demo of the website [here](#).
 
-## 🖼️ Screenshots
+## ![image](https://github.com/user-attachments/assets/174b0c82-5701-4ebd-9625-3f3fa6f3dee8)
 
-![Home Page](screenshots/home.png)
-*Home Page*
 
-![Search Results](screenshots/search-results.png)
+![Search Results](![image](https://github.com/user-attachments/assets/78af41b2-f8ba-4e91-a1f8-8997b8e6e52c)
+)
 *Search Results*
 
-![Movie Details](screenshots/movie-details.png)
+![Movie Details](![image](https://github.com/user-attachments/assets/2d59f74c-1666-411f-865d-d237e161edcc)
+)
 *Movie Details*
 
 ## 🚀 Getting Started
@@ -76,7 +76,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## 🛠️ Built With
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [TMDb API](https://www.themoviedb.org/documentation/api) - The API used to fetch movie data
+- [OMDb API](https://www.omdbapi.com) - The API used to fetch movie data
 
 ## 🤝 Contributing
 
@@ -88,13 +88,9 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📚 Acknowledgments
 
-- [The Movie Database (TMDb)](https://www.themoviedb.org/) for providing the movie data.
+- [The Movie Database (OMDb)](https://www.omdbapi.com) for providing the movie data.
 - [Create React App](https://create-react-app.dev/) for the boilerplate.
 
 ## 📞 Contact
