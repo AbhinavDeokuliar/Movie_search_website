@@ -1,6 +1,6 @@
 # 🎬 Movie Search Website
 
-Welcome to the **Movie Search Website** repository! This project is a React-based web application that allows users to search for movies and view details such as the title, release date, overview, and poster. The data is fetched from [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
+Welcome to the **Movie Search Website** repository! This project is a React-based web application that allows users to search for movies and view details such as the title, release date, overview, and poster. The data is fetched from [The Movie Database (OMDb) API](https://www.omdbapi.com).
 
 ## ✨ Features
 
